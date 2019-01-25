@@ -6,7 +6,7 @@ import Image from '../components/image'
 import SEO from '../components/seo'
 
 import { MenuButton } from '../components/MenuButton.tsx'
-import { standardButton } from '../components/standardButton.tsx'
+import { StandardButton } from '../components/standardButton.tsx'
 
 const IndexPage = () => (
   <Layout>
@@ -19,7 +19,7 @@ const IndexPage = () => (
     </div>
     <Link to="/page-2/">Go to page 2</Link>
     <MenuButton></MenuButton>
-    <standardButton></standardButton>
+    <StandardButton></StandardButton>
   </Layout>
 )
 

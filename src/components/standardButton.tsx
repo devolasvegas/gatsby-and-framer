@@ -17,7 +17,7 @@ interface Props {
     text: string;
 }
 
-export class standardButton extends React.Component<Props> {
+export class StandardButton extends React.Component<Props> {
 
     // Set default properties
     static defaultProps = {
